@@ -1,0 +1,28 @@
+* { font-family: sans-serif; margin: 0; padding: 0; }
+body {
+  background-color: black;
+  color: white;
+  padding: 16px 32px 0px 32px;
+  max-width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a { text-decoration: none; color: white; }
+a:visited { text-decoration: none; color: white; }
+ul { list-style: none; }
+h1 { text-transform: uppercase; }
+.text-secondary { color: gray; font-size: 0.75em; }
+.cols { display: flex; flex-direction: column; }
+.rows { display: flex; flex-direction: row; }
+.gap { row-gap: 8px; col-gap: 8px; }
+.align-center { align-items: center; }
+.justify-center { justify-content: center; }
+.w100 { width: 100%; }
+.gap-sm { row-gap: 4px; col-gap: 4px; }
+.gap-lg { row-gap: 16px; col-gap: 16px; }
+.text-center { text-align: center; }
+#projects-iframe {
+  width: 100%;
+  height: 100%;
+  margin-top: 8px;
+}
